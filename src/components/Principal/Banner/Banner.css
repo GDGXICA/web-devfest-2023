@@ -4,7 +4,6 @@
   position: relative;
   margin: auto;
   margin-top: 13rem;
-  /* margin-left: 10rem; */
 }
 .banner__title {
   font-size: 10rem;
@@ -30,7 +29,7 @@
   padding: 0.2rem 1.5rem;
   border-radius: 5rem;
   font-family: "Product Sans", sans-serif;
-  transition: transform 0.2s ease; /* Agregar una transición suave */
+  transition: transform 0.2s ease;
 }
 .banner__buttons {
   position: absolute;
@@ -50,7 +49,7 @@
   padding: 0.2rem 1.5rem;
   border-radius: 5rem;
   font-family: "Product Sans", sans-serif;
-  transition: transform 0.2s ease; /* Agregar una transición suave */
+  transition: transform 0.2s ease;
 }
 .banner__buttons__item__efect {
   position: absolute;
@@ -64,10 +63,10 @@
   border: 1px solid white;
   color: #e8ebed;
 
-  animation: pulseBorder 2010ms infinite; /* Aplicar la animación "pulseBorder" infinitamente */
+  animation: pulseBorder 2010ms infinite;
 }
 .banner__buttons__item__efect--third {
-  border: 1px solid transparent; /* Establecer un borde transparente inicialmente */
+  border: 1px solid transparent;
   padding: 1rem 2rem;
   font-size: 1.4rem;
   border: 1px solid white;
@@ -79,13 +78,13 @@
 
 @keyframes pulseBorder {
   0% {
-    border-color: transparent; /* Comienza con un borde transparente */
+    border-color: transparent;
   }
   50% {
-    border-color: #e8ebed; /* Luego, muestra el borde */
+    border-color: #e8ebed;
   }
   100% {
-    border-color: transparent; /* Finaliza con un borde transparente nuevamente */
+    border-color: transparent;
   }
 }
 
@@ -93,7 +92,7 @@
   background-color: #e8ebed;
   color: black;
   transition: 0.2s ease-in-out;
-  animation: none; /* Detiene la animación al hacer hover */
+  animation: none;
 }
 
 .banner__buttons__item--third:hover {
@@ -102,11 +101,11 @@
   transition: 0.2s ease-in-out;
 }
 .banner__buttons:hover .banner__buttons__item--first {
-  transform: translateX(20px); /* Mueve ligeramente hacia la derecha */
+  transform: translateX(20px);
 }
 
 .banner__buttons:hover .banner__buttons__item--second {
-  transform: translateX(-20px); /* Mueve ligeramente hacia la izquierda */
+  transform: translateX(-20px);
 }
 
 @media screen and (max-width: 768px) {

@@ -2,7 +2,6 @@ import "./Mobile.css";
 import Grid from "../../components/Mobile/Grid";
 import Text from "../../components/Mobile/Text";
 import Image from "../../components/Mobile/Image";
-import Button from "../../components/Mobile/Button";
 
 function Mobile() {
   return (

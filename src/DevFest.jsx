@@ -8,7 +8,7 @@ import Calendario from "./Views/Calendario";
 import Mobile from "./Views/Mobile";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 function App() {
 
   useEffect(() => {

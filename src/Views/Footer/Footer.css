@@ -6,10 +6,10 @@
   margin: auto;
   padding-top: 0rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Cambiamos a 3 columnas iguales */
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-around;
   padding-bottom: 4rem;
-  gap: 2.5rem; /* Añadimos espacio entre las columnas */
+  gap: 2.5rem;
 }
 
 .mensajeprefooter {
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    grid-template-columns: 1fr; /* Cambiamos a una sola columna en pantallas pequeñas */
+    grid-template-columns: 1fr;
   }
   .mensajeprefooter__titulo {
     font-size: 2.5rem;

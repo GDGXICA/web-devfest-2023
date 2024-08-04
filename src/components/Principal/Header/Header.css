@@ -1,20 +1,3 @@
-/* .navegador {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 75rem;
-  margin: auto; 
-  align-items: center;
-
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  left: 50%;
-  transform: translateX(-50%); 
-} */
-
-
-
 .navegador {
   display: flex;
   justify-content: space-between;
@@ -28,8 +11,6 @@
   left: 50%;
   transform: translateX(-50%);
 }
-
-/* Other styles... */
 
 @media screen and (max-width: 768px) {
   .navegador {
@@ -66,23 +47,6 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .navegador__efect--active {
   padding-top: 1.5rem;
   transition: 0.25s ease-in-out;
@@ -102,7 +66,6 @@
   left: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
   transition: 0.25s ease-in-out;
-  /* transition: opacity 500ms; */
   opacity: 1;
 }
 .filtro__header--desactive {
@@ -116,15 +79,12 @@
   left: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
   transition: 0.25s ease-in-out;
-  /* transition: opacity 500ms; */
   opacity: 0;
 }
 .navegador__logo {
   padding: 1rem;
   cursor: pointer;
 }
-
-
 
 .navegador__lista {
   padding: 1rem;
@@ -136,17 +96,13 @@
   align-items: center;
 } 
 
-
-
 .navegador__lista__item__a {
   border-radius: 0.5rem;
-  /* padding: 1.2rem 1.5rem; */
   transition: 0.2s ease-in-out;
   cursor: pointer;
   font-family: "Product Sans", sans-serif;
   font-size: 1.2rem;
 } 
-
 
 .navegador__lista__item__a:hover {
   background-color: rgba(117, 118, 118, 0.192);
@@ -170,8 +126,6 @@
   border-radius: 0.5rem;
   transition: 0.2s ease-in-out;
 } 
-
-
 
 .navegador__menu {
   display: none;

@@ -57,18 +57,18 @@
   margin-right: auto;
 }
 .py-12 {
-  padding-top: 3rem/* 48px */;
-  padding-bottom: 3rem/* 48px */;
+  padding-top: 3rem
+  padding-bottom: 3rem
 }
 @media (min-width: 768px) {
   .md\:py-24 {
-    padding-top: 6rem/* 96px */;
-    padding-bottom: 6rem/* 96px */;
+    padding-top: 6rem
+    padding-bottom: 6rem
   }
 }
 .px-4 {
-  padding-left: 1rem/* 16px */;
-  padding-right: 1rem/* 16px */;
+  padding-left: 1rem
+  padding-right: 1rem
 }
 .flex {
   display: flex;

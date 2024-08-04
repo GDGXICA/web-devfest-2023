@@ -22,15 +22,15 @@
 }
 
 .cardspeaker__container__imagen__speaker {
-  transition: transform 0.3s ease-in-out; /* Agregar una transición suave */
-  width: 100%; /* Asegura que la imagen ocupe todo el espacio del div */
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
 }
 .cardspeaker__container__imagen__icon {
-  transition: transform 0.3s ease-in-out; /* Agregar una transición suave */
+  transition: transform 0.3s ease-in-out;
   background-color: #1e1d1d;
   position: absolute;
   top: 11.5rem;
@@ -45,10 +45,10 @@
   border: 1.5px solid white;
 }
 .cardspeaker:hover .cardspeaker__container__imagen__speaker {
-  transform: scale(1.1); /* Escalar la imagen al 110% en hover */
+  transform: scale(1.1);
 }
 .cardspeaker:hover .cardspeaker__container__imagen__icon {
-  transform: scale(0.94); /* Escalar la imagen al 110% en hover */
+  transform: scale(0.94);
 }
 .cardspeaker:hover .cardspeaker__texto__descripcion {
   color: white;

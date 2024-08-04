@@ -17,6 +17,7 @@ const Banner = () => {
             <a
               href="https://www.eventbrite.com/e/entradas-devfest-ica-718100236137"
               target="_blank"
+              rel="noreferrer"
             >
               Regístrate
             </a>

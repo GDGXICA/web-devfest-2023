@@ -1,7 +1,7 @@
 iframe {
-  border-radius: 25px; /* Ajusta el valor según el grado de redondeo deseado */
+  border-radius: 25px;
 }
-/* CSS Puro */
+
 .mapa__component {
   position: relative;
   margin-top: 1.5rem;
@@ -13,17 +13,17 @@ iframe {
 }
 
 .md\:mt-12 {
-  margin-top: 3rem; /* El valor md:mt-12 en Tailwind CSS se traduce a 3rem */
+  margin-top: 3rem;
 }
 
 .lg\:w-10\/12 {
-  width: 83.33%; /* El valor lg:w-10/12 en Tailwind CSS se traduce a 83.33% */
+  width: 83.33%;
 }
 
 .md\:h-320 {
-  height: 320px; /* Altura fija de 320px para pantallas medianas (md) */
+  height: 320px;
 }
 
 .lg\:h-400 {
-  height: 400px; /* Altura fija de 400px para pantallas grandes (lg) */
+  height: 400px;
 }

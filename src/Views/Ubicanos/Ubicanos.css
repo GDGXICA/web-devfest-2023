@@ -1,13 +1,11 @@
-/* CSS Puro */
 .container {
   margin-right: auto;
-  margin-left: auto; /* 4 en Tailwind CSS se traduce a 1rem */
+  margin-left: auto;
   display: flex;
   flex-direction: column;
 }
 
 @media (max-width: 768px) {
-  /* Estilos para pantallas medianas y más grandes (md y superior) */
 
   .ubicacion__container {
     width: 80%;
@@ -17,13 +15,6 @@
 
   }
 }
-
-/* Efectos de animación */
-/* .reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 500ms linear 0s, transform 500ms linear 0s;
-} */
 
 .fade-bottom.active {
   opacity: 1;

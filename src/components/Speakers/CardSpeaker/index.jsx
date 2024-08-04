@@ -1,7 +1,4 @@
 import "./CardSpeaker.css";
-import { MdPlace } from "react-icons/md";
-import { BiSolidBeenHere } from "react-icons/bi";
-import { FaLaptopCode } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 
 const CardSpeaker = ({ speaker, imagen, speaker_desc, modality }) => {

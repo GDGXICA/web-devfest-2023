@@ -5,8 +5,8 @@
   border-radius: 1rem;
   display: flex;
   position: relative;
-  justify-content: center; /* Centrar horizontalmente dentro de .cardsponsor */
-  align-items: center; /* Centrar verticalmente dentro de .cardsponsor */
+  justify-content: center;
+  align-items: center;
 }
 
 .cardsponsor__click {
@@ -33,9 +33,9 @@
   border-radius: 5rem;
   border: 1px solid #88b4f7;
   color: #88b4f7;
-  transform: translate(-50%, -50%); /* Centrar horizontal y verticalmente */
-  top: 95%; /* Coloca el 50% desde arriba */
-  left: 50%; /* Coloca el 50% desde la izquierda */
+  transform: translate(-50%, -50%);
+  top: 95%;
+  left: 50%;
 }
 
 @media screen and (max-width: 768px) {

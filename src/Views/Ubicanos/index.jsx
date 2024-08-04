@@ -1,4 +1,3 @@
-import React from 'react';
 import Mapa from '../../components/Ubicanos/Mapa'
 import Texto from '../../components/Ubicanos/Texto'
 import "./Ubicanos.css"

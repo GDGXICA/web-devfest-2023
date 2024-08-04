@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./Header.css";
 import { AiOutlineMenu } from "react-icons/ai";
+import ModalForm from "../../ModalForm/ModalForm";
+
 const Header = () => {
   const lista = [
     { nombre: "Acerca", direccion: "#acerca" },
@@ -12,11 +14,13 @@ const Header = () => {
   ];
   const [hamburguesa, setHamburguesa] = useState(window.innerWidth > 768);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  
   const redirectToInicio = () => {
     window.location.href = "#inicio";
   };
+
   useEffect(() => {
-    // Función para manejar el evento de scroll
     const handleScroll = () => {
       if (window.scrollY > 0) {
         setIsScrolled(true);
@@ -25,10 +29,8 @@ const Header = () => {
       }
     };
 
-    // Agregar el evento de scroll cuando se monta el componente
     window.addEventListener("scroll", handleScroll);
 
-    // Limpiar el evento cuando se desmonta el componente
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -67,10 +69,9 @@ const Header = () => {
               </li>
             );
           })}
+
           <li className="navegador__lista__item--active">
-            <a href="https://www.eventbrite.com/e/entradas-devfest-ica-718100236137" target="_blank" className="navegador__lista__item--active__a">
-              Registrate
-            </a>
+            <a onClick={() => setShowModal(true)} className="navegador__lista__item--active__a">Registrate</a>
           </li>
         </ul>
         {window.innerWidth < 768 && (
@@ -87,6 +88,7 @@ const Header = () => {
       ) : (
         <div className="filtro__header--desactive"></div>
       )}
+      <ModalForm showModal={showModal} setShowModal={setShowModal} />
     </>
   );
 };

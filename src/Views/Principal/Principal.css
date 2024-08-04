@@ -1,5 +1,4 @@
 .principal__fondo {
-  /* al hacer el build no reconoce esta imagen, toca investigar tilines  */
   background-image: url("../../../public/img/fondo.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -31,7 +30,6 @@
 
 @media screen and (max-width: 768px) {
   .principal__fondo {
-    /* al hacer el build no reconoce esta imagen, toca investigar tilines  */
     background-image: url("../../../public/img/fondo.jpg");
     background-repeat: no-repeat;
     background-position: center;

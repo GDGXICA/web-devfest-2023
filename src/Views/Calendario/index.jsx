@@ -1,7 +1,6 @@
-import React from "react";
 import TarjetasHorario from "../../components/Calendario/TarjetasHorario";
 import "./Calendario.css";
-import calendarioData from "../../data/sessions.json"; // Asegúrate de proporcionar la ruta correcta al archivo JSON
+import calendarioData from "../../data/sessions.json";
 
 const Calendario = () => {
   const transformedSessions = calendarioData.sessions.map((session) => {
